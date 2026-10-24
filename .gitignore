@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# distill-it outputs (runs, teacher label caches, exported models)
+runs/
+.cache/
+*.onnx
+
+# Notebooks / data
+.ipynb_checkpoints/
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local Claude settings
+.env
+**/.claude/settings.local.json
